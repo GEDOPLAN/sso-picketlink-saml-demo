@@ -1,0 +1,68 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.gedoplan</groupId>
+  <artifactId>sso-picketlink-saml-idp</artifactId>
+  <version>0.0.1.Final-SNAPSHOT</version>
+
+  <packaging>war</packaging>
+
+  <properties>
+        <!-- WildFly Dependency Version -->
+    <version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
+
+        <!-- PicketLink Dependency Version -->
+    <version.picketlink.javaee.bom>2.7.1.Final</version.picketlink.javaee.bom>  
+
+        <!-- maven-compiler-plugin -->
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>    
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- Dependency Management für PicketLink mit Java EE 7 -->
+      <dependency>
+        <groupId>org.picketlink</groupId>
+        <artifactId>picketlink-javaee-7.0</artifactId>
+        <version>${version.picketlink.javaee.bom}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.picketlink.distribution</groupId>
+      <artifactId>picketlink-jbas7</artifactId>
+      <version>2.7.1.Final</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <configuration>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+      </plugin>
+            <!-- WildFly Plugin zum Deployen auf den Application-Server -->
+      <plugin>
+        <groupId>org.wildfly.plugins</groupId>
+        <artifactId>wildfly-maven-plugin</artifactId>
+        <version>${version.wildfly.maven.plugin}</version>
+        <configuration>
+          <filename>${project.build.finalName}.${project.packaging}</filename>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

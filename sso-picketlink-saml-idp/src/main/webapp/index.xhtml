@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+	<h:head>
+		<title>Identity-Provider with PicketLink, SAML and JSF</title>
+	</h:head>
+
+	<h:body>
+		<ui:composition template="/resources/template/commonLayout.xhtml">
+			<ui:define name="content">
+				<h:form style="font-size: 20pt">			
+				      <br/><br/>
+							<h:outputText value="Herzlich Willkommen, #{request.getUserPrincipal().getName()}!" />
+							<br/><br/>
+							<h:outputLink
+								value="http://localhost:8080/service-provider-1/index.xhtml">Service Provider 1</h:outputLink>
+								<br/>
+								<h:outputLink
+                value="http://localhost:8080/service-provider-2/index.xhtml">Service Provider 2</h:outputLink>		
+				</h:form>
+			</ui:define>
+		</ui:composition>
+	</h:body>
+</html>

@@ -1,0 +1,8 @@
+<jboss-web>
+    <!-- Die Security-Domain auf die sich der Identity Provider bezieht. In diesem Fall eine UsersRoles
+         Authentifizierung via Property-Files (main/resource/). -->
+    <security-domain>idp</security-domain>
+
+    <!-- Definition des Kontextnamen über den die Webanwendung aufgerufen werden kann. -->
+    <context-root>identity-provider</context-root>
+</jboss-web>

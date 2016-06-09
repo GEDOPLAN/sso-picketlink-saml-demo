@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:body>
+	<ui:composition template="/resources/template/commonLayout.xhtml">
+
+		<ui:define name="head-meta">
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		</ui:define>
+		<ui:define name="head-meta-refresh">
+			<meta http-equiv="refresh"
+				content="1; url=#{request.getContextPath()}" />
+		</ui:define>
+
+		<ui:define name="content">
+			<h:form style="font-size: 20pt">
+				<br />
+				<br />
+				<h:outputText value="Sie wurden erfolgreich ausgeloggt und werden in Kürze zur Login-Seite weitergeleitet..." />
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</h:body>
+
+</html>

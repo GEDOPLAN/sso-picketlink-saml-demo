@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <!-- Die Security-Domain der Service Provider. In Dieser Domain ist das SAML2LoginModul als Login-Modul 
+    festgelegt damit die Benutzer Information einer SAML Assertion extrahiert werden können. -->
+  <security-domain>sp</security-domain>
+
+    <!-- Definition des Kontextnamen über den die Webanwendung aufgerufen werden kann. -->
+  <context-root>service-provider-1</context-root>
+</jboss-web>

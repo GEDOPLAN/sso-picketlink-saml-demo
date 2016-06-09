@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Service Provider 2 with PicketLink, SAML and JSF</title>
+</h:head>
+
+<h:body>
+	<ui:composition template="/resources/template/commonLayout.xhtml">
+		<ui:define name="content">
+			<h:form style="font-size: 20pt">
+				<br />
+				<br />
+				<h:outputText
+					value="Sie befinden sich in der Anwendung 'Service Provider 1'." />
+				<br />
+				<br />
+				<h:outputLink value="http://localhost:8080/identity-provider/index.xhtml">Login-Seite</h:outputLink>
+				<br />
+				<h:outputLink
+					value="http://localhost:8080/service-provider-2/index.xhtml">Service Provider 2</h:outputLink>
+				<br />
+				<br />
+				<a href="?GLO=true">Global Logout</a>
+			</h:form>
+		</ui:define>
+	</ui:composition>
+</h:body>
+
+</html>

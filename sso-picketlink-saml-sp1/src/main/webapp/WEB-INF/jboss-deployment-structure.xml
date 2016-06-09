@@ -1,0 +1,9 @@
+<jboss-deployment-structure>
+    <deployment>
+        <!-- Die Dependency des PicketLink-Moduls muss hinzugefügt werden, damit sie der WildFly Container verwendet. -->
+        <dependencies>
+            <module name="org.picketlink"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
+
