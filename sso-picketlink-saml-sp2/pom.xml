@@ -16,7 +16,7 @@
     <version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
   
     <!-- PicketLink dependency Version -->
-    <version.picketlink.javaee.bom>2.7.0.Final</version.picketlink.javaee.bom>
+    <version.picketlink.javaee.bom>2.7.1.Final</version.picketlink.javaee.bom>
     
     <!-- maven-compiler-plugin -->
     <maven.compiler.target>1.8</maven.compiler.target>
