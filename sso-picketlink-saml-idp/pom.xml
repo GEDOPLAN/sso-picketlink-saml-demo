@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.gedoplan</groupId>
-  <artifactId>sso-picketlink-saml-idp</artifactId>
+  <artifactId>sso-picketlink-saml-jsf-idp</artifactId>
   <version>0.0.1.Final-SNAPSHOT</version>
 
   <packaging>war</packaging>
@@ -15,7 +15,7 @@
     <version.wildfly.maven.plugin>1.0.2.Final</version.wildfly.maven.plugin>
 
         <!-- PicketLink Dependency Version -->
-    <version.picketlink.javaee.bom>2.7.1.Final</version.picketlink.javaee.bom>  
+    <version.picketlink.javaee.bom>2.7.0.Final</version.picketlink.javaee.bom>  
 
         <!-- maven-compiler-plugin -->
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -24,7 +24,7 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- Dependency Management für PicketLink mit Java EE 7 -->
+      <!-- Dependency Management fuer PicketLink mit Java EE 7 -->
       <dependency>
         <groupId>org.picketlink</groupId>
         <artifactId>picketlink-javaee-7.0</artifactId>
