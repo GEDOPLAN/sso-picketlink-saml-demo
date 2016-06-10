@@ -12,20 +12,30 @@
 <h:body>
 	<ui:composition template="/resources/template/commonLayout.xhtml">
 		<ui:define name="content">
-			<h:form style="font-size: 20pt">
+			<h:form>
 				<br />
 				<br />
 				<h:outputText
-					value="Sie befinden sich in der Anwendung 'Service Provider 2'." />
-				<br />				
+					value="Sie befinden sich in der Anwendung 'Service Provider 2'."
+					style="font-size: 20pt" />
 				<br />
-				<h:outputLink value="http://localhost:8080/identity-provider/index.xhtml">Login-Seite</h:outputLink>
+				<br />
 				<br />
 				<h:outputLink
-					value="http://localhost:8080/service-provider-1/index.xhtml">Service Provider 1</h:outputLink>
+					value="http://localhost:8080/identity-provider/index.xhtml"
+					style="font-size: 18pt">Login-Seite</h:outputLink>
 				<br />
 				<br />
-				<a href="?GLO=true">Global Logout</a>
+				<h:outputLink
+					value="http://localhost:8080/service-provider-1/index.xhtml"
+					style="font-size: 18pt">Service Provider 1</h:outputLink>
+				<h:outputText
+					value=" (Dieser Link funktioniert nur, wenn Service Provider 2 im WildFly deployt ist.)"
+					style="font-size: 12pt; font-weight: bold" />
+				<br />
+				<br />
+				<br />
+				<a href="?GLO=true" style="font-size: 18pt">Global Logout</a>
 			</h:form>
 		</ui:define>
 	</ui:composition>
