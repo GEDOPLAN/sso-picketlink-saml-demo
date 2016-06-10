@@ -7,4 +7,4 @@
 * Kommandozeile im Projekt öffnen
 * Befehl **mvn clean install wildfly:deploy** ausführen
 
-######Nach dem Deployen befindet sich die Anwendung standardmäßig unter: http://localhost:8080/identity-provider.
+######Nach dem Deployen befindet sich die Anwendung standardmäßig unter: [](http://localhost:8080/identity-provider).
