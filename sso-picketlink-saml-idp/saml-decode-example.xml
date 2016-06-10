@@ -1,0 +1,131 @@
+<!-- encoding mit BASE64 -->
+
+<!-- SAML Request encoded -->
+<!-- PHNhbWxwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIiB
+4bWxucz0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiIgQXNzZXJ0aW9uQ29uc3VtZXJTZXJ2aWNlVVJMPSJ
+odHRwOi8vbG9jYWxob3N0OjgwODAvc2VydmljZS1wcm92aWRlci0yLyIgRGVzdGluYXRpb249Imh0dHA6Ly9sb2NhbGhvc3Q6ODA
+4MC9pZGVudGl0eS1wcm92aWRlci8iIEZvcmNlQXV0aG49ImZhbHNlIiBJRD0iSURfMGRlNzZjYzQtNjc2NS00ZTM4LTk3MDQtMjE
+2OTBkY2Q3MDA1IiBJc1Bhc3NpdmU9ImZhbHNlIiBJc3N1ZUluc3RhbnQ9IjIwMTYtMDYtMTBUMDk6MzM6NTMuODYzWiIgUHJvdG9
+jb2xCaW5kaW5nPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YmluZGluZ3M6SFRUUC1QT1NUIiBWZXJzaW9uPSIyLjAiPjx
+zYW1sOklzc3VlciB4bWxuczpzYW1sPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YXNzZXJ0aW9uIj5odHRwOi8vbG9jYWx
+ob3N0OjgwODAvc2VydmljZS1wcm92aWRlci0yLzwvc2FtbDpJc3N1ZXI+PHNhbWxwOk5hbWVJRFBvbGljeSBBbGxvd0NyZWF0ZT0
+idHJ1ZSIgRm9ybWF0PSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6bmFtZWlkLWZvcm1hdDp0cmFuc2llbnQiLz48L3NhbWx
+wOkF1dGhuUmVxdWVzdD4= -->
+
+<!-- SAML Request decoded -->
+<samlp:AuthnRequest
+  xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+  xmlns="urn:oasis:names:tc:SAML:2.0:assertion"
+  AssertionConsumerServiceURL="http://localhost:8080/service-provider-2/"
+  Destination="http://localhost:8080/identity-provider/"
+  ForceAuthn="false"
+  ID="ID_0de76cc4-6765-4e38-9704-21690dcd7005"
+  IsPassive="false"
+  IssueInstant="2016-06-10T09:33:53.863Z"
+  ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+  Version="2.0">
+  <saml:Issuer xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">http://localhost:8080/service-provider-2/</saml:Issuer>
+  <samlp:NameIDPolicy
+    AllowCreate="true"
+    Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient"/>
+</samlp:AuthnRequest>
+
+<!-- SAML Response encoded -->
+<!-- PHNhbWxwOlJlc3BvbnNlIHhtbG5zOnNhbWxwPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6cHJvdG9jb2wiIHhtbG5
+zOnNhbWw9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphc3NlcnRpb24iIERlc3RpbmF0aW9uPSJodHRwOi8vbG9jYWxob3N
+0OjgwODAvc2VydmljZS1wcm92aWRlci0yLyIgSUQ9IklEXzRjZGNhMTllLTgyY2UtNGRiNC1hYjJiLTJiMWE5YWVkY2JmMiIgSW5
+SZXNwb25zZVRvPSJJRF8wZGU3NmNjNC02NzY1LTRlMzgtOTcwNC0yMTY5MGRjZDcwMDUiIElzc3VlSW5zdGFudD0iMjAxNi0wNi0
+xMFQwOTozNjoyNy43ODZaIiBWZXJzaW9uPSIyLjAiPjxzYW1sOklzc3Vlcj5odHRwOi8vbG9jYWxob3N0OjgwODAvaWRlbnRpdHk
+tcHJvdmlkZXIvPC9zYW1sOklzc3Vlcj48c2FtbHA6U3RhdHVzPjxzYW1scDpTdGF0dXNDb2RlIFZhbHVlPSJ1cm46b2FzaXM6bmF
+tZXM6dGM6U0FNTDoyLjA6c3RhdHVzOlN1Y2Nlc3MiLz48L3NhbWxwOlN0YXR1cz48c2FtbDpBc3NlcnRpb24geG1sbnM9InVybjp
+vYXNpczpuYW1lczp0YzpTQU1MOjIuMDphc3NlcnRpb24iIElEPSJJRF8xODgxZjRiYy01ZmFjLTQ5YmUtYmRkZC0wMTAxZjJjYTJ
+hM2UiIElzc3VlSW5zdGFudD0iMjAxNi0wNi0xMFQwOTozNjoyNy43ODVaIiBWZXJzaW9uPSIyLjAiPjxzYW1sOklzc3Vlcj5odHR
+wOi8vbG9jYWxob3N0OjgwODAvaWRlbnRpdHktcHJvdmlkZXIvPC9zYW1sOklzc3Vlcj48c2FtbDpTdWJqZWN0PjxzYW1sOk5hbWV
+JRCBGb3JtYXQ9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpuYW1laWQtZm9ybWF0OnBlcnNpc3RlbnQiPmFkbWluPC9zYW1
+sOk5hbWVJRD48c2FtbDpTdWJqZWN0Q29uZmlybWF0aW9uIE1ldGhvZD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmNtOmJ
+lYXJlciI+PHNhbWw6U3ViamVjdENvbmZpcm1hdGlvbkRhdGEgSW5SZXNwb25zZVRvPSJJRF8wZGU3NmNjNC02NzY1LTRlMzgtOTc
+wNC0yMTY5MGRjZDcwMDUiIE5vdE9uT3JBZnRlcj0iMjAxNi0wNi0xMFQwOTozNjozMi43ODVaIiBSZWNpcGllbnQ9Imh0dHA6Ly9
+sb2NhbGhvc3Q6ODA4MC9zZXJ2aWNlLXByb3ZpZGVyLTIvIi8+PC9zYW1sOlN1YmplY3RDb25maXJtYXRpb24+PC9zYW1sOlN1Ymp
+lY3Q+PHNhbWw6Q29uZGl0aW9ucyBOb3RCZWZvcmU9IjIwMTYtMDYtMTBUMDk6MzY6MjcuNzg1WiIgTm90T25PckFmdGVyPSIyMDE
+2LTA2LTEwVDA5OjM2OjMyLjc4NVoiPjxzYW1sOkF1ZGllbmNlUmVzdHJpY3Rpb24+PHNhbWw6QXVkaWVuY2U+aHR0cDovL2xvY2F
+saG9zdDo4MDgwL3NlcnZpY2UtcHJvdmlkZXItMi88L3NhbWw6QXVkaWVuY2U+PC9zYW1sOkF1ZGllbmNlUmVzdHJpY3Rpb24+PC9
+zYW1sOkNvbmRpdGlvbnM+PHNhbWw6QXV0aG5TdGF0ZW1lbnQgQXV0aG5JbnN0YW50PSIyMDE2LTA2LTEwVDA5OjM2OjI3Ljc4N1o
+iIFNlc3Npb25JbmRleD0iSURfMTg4MWY0YmMtNWZhYy00OWJlLWJkZGQtMDEwMWYyY2EyYTNlIj48c2FtbDpBdXRobkNvbnRleHQ
++PHNhbWw6QXV0aG5Db250ZXh0Q2xhc3NSZWY+dXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFjOmNsYXNzZXM6UGFzc3dvcmQ
+8L3NhbWw6QXV0aG5Db250ZXh0Q2xhc3NSZWY+PC9zYW1sOkF1dGhuQ29udGV4dD48L3NhbWw6QXV0aG5TdGF0ZW1lbnQ+PHNhbWw
+6QXR0cmlidXRlU3RhdGVtZW50PjxzYW1sOkF0dHJpYnV0ZSBOYW1lPSJSb2xlIj48c2FtbDpBdHRyaWJ1dGVWYWx1ZSB4bWxuczp
+4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUx
+TY2hlbWEtaW5zdGFuY2UiIHhzaTp0eXBlPSJ4czpzdHJpbmciPnNwMjwvc2FtbDpBdHRyaWJ1dGVWYWx1ZT48L3NhbWw6QXR0cml
+idXRlPjxzYW1sOkF0dHJpYnV0ZSBOYW1lPSJSb2xlIj48c2FtbDpBdHRyaWJ1dGVWYWx1ZSB4bWxuczp4cz0iaHR0cDovL3d3dy5
+3My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2U
+iIHhzaTp0eXBlPSJ4czpzdHJpbmciPmFkbWluPC9zYW1sOkF0dHJpYnV0ZVZhbHVlPjwvc2FtbDpBdHRyaWJ1dGU+PHNhbWw6QXR
+0cmlidXRlIE5hbWU9IlJvbGUiPjxzYW1sOkF0dHJpYnV0ZVZhbHVlIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1h
+NTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnR5cGU9Inh
+zOnN0cmluZyI+c3AxPC9zYW1sOkF0dHJpYnV0ZVZhbHVlPjwvc2FtbDpBdHRyaWJ1dGU+PC9zYW1sOkF0dHJpYnV0ZVN0YXRlbWV
+udD48L3NhbWw6QXNzZXJ0aW9uPjwvc2FtbHA6UmVzcG9uc2U+ -->
+
+<!-- SAML Response decoded success -->
+<samlp:Response
+  xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+  Destination="http://localhost:8080/service-provider-2/"
+  ID="ID_4cdca19e-82ce-4db4-ab2b-2b1a9aedcbf2"
+  InResponseTo="ID_0de76cc4-6765-4e38-9704-21690dcd7005"
+  IssueInstant="2016-06-10T09:36:27.786Z"
+  Version="2.0">
+  <saml:Issuer>http://localhost:8080/identity-provider/</saml:Issuer>
+  <samlp:Status>
+    <samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </samlp:Status>
+  <saml:Assertion
+    xmlns="urn:oasis:names:tc:SAML:2.0:assertion"
+    ID="ID_1881f4bc-5fac-49be-bddd-0101f2ca2a3e"
+    IssueInstant="2016-06-10T09:36:27.785Z"
+    Version="2.0">
+    <saml:Issuer>http://localhost:8080/identity-provider/</saml:Issuer>
+    <saml:Subject>
+      <saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent">admin</saml:NameID>
+      <saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+        <saml:SubjectConfirmationData
+          InResponseTo="ID_0de76cc4-6765-4e38-9704-21690dcd7005"
+          NotOnOrAfter="2016-06-10T09:36:32.785Z"
+          Recipient="http://localhost:8080/service-provider-2/"/>
+      </saml:SubjectConfirmation>
+    </saml:Subject>
+    <saml:Conditions
+      NotBefore="2016-06-10T09:36:27.785Z"
+      NotOnOrAfter="2016-06-10T09:36:32.785Z">
+      <saml:AudienceRestriction>
+        <saml:Audience>http://localhost:8080/service-provider-2/</saml:Audience>
+      </saml:AudienceRestriction>
+    </saml:Conditions>
+    <saml:AuthnStatement
+      AuthnInstant="2016-06-10T09:36:27.787Z"
+      SessionIndex="ID_1881f4bc-5fac-49be-bddd-0101f2ca2a3e">
+      <saml:AuthnContext>
+        <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password
+        </saml:AuthnContextClassRef>
+      </saml:AuthnContext>
+    </saml:AuthnStatement>
+    <saml:AttributeStatement>
+      <saml:Attribute Name="Role">
+        <saml:AttributeValue
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:type="xs:string">sp2</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="Role">
+        <saml:AttributeValue
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:type="xs:string">admin</saml:AttributeValue>
+      </saml:Attribute>
+      <saml:Attribute Name="Role">
+        <saml:AttributeValue
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:type="xs:string">sp1</saml:AttributeValue>
+      </saml:Attribute>
+    </saml:AttributeStatement>
+  </saml:Assertion>
+</samlp:Response>

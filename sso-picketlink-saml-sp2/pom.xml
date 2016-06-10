@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.gedoplan</groupId>
-  <artifactId>sso-picketlink-saml-jsf-sp2</artifactId>
+  <artifactId>sso-picketlink-saml-sp2</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <packaging>war</packaging>
