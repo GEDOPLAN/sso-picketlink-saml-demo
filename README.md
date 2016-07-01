@@ -13,4 +13,4 @@
   * configure-wildfly-ipd-sp.cli verwenden (jboss-cli.bat oder jboss-cli.sh)
 * READMEs der beinhalteten Projekte (IDP, SP1, SP2) zum Deployen dieser lesen 
 
-####Weitere Informationen finden Sie unter xxxxx und in den READMEs der einzelnen Projekte.
+####Weitere Informationen finden Sie in unserem [GEDOPLAN Blog](https://javaeeblog.wordpress.com/2016/07/01/wildfly-sso-fuer-webanwendungen-mit-picketlink/) und in den READMEs der einzelnen Projekte.
